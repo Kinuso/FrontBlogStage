@@ -63,8 +63,6 @@ export default {
       <label for="picture">Post picture (link) :</label>
       <input type="text" name="picture" required v-model="picture">
 
-      <!-- <label for="date">{{ moment("D/M/YYYY") }}</label> -->
-      <!-- <input type="hidden" value={{ date }} name="date" id=""> -->
       <button type="submit">Create my post</button>
     </form>
 
